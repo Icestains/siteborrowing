@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>学生事务综合服务中心场地使用登记表</title>
+
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .error{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+        <h4 class="text-center">学生事务综合服务中心场地使用登记表</h4>
+        <form id="FormInfo" action="" method="post">
+            <div class="form-group">
+                <label class="sr-only" for="ApplyComp">申请单位</label>
+                <input type="text" class="form-control" id="ApplyComp" name="ApplyComp" placeholder="申请单位">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="PeoNum">参与人数</label>
+                <input type="number" class="form-control" id="PeoNum" name="PeoNum" placeholder="参与人数">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="CompBoss">负责人(老师)</label>
+                <input type="text" class="form-control" id="CompBoss" name="CompBoss" placeholder="负责人(老师)">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="BossPhone">老师手机号</label>
+                <input type="number" class="form-control" id="BossPhone" name="BossPhone" placeholder="老师手机号">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="CompPeo">申请人</label>
+                <input type="text" class="form-control" id="CompPeo" name="CompPeo" placeholder="申请人">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="CompPeoPhone">申请人手机号</label>
+                <input type="number" class="form-control" id="CompPeoPhone" name="CompPeoPhone" placeholder="申请人手机号">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="CompPeoEmail">申请人邮箱</label>
+                <input type="email" class="form-control" id="CompPeoEmail" name="CompPeoEmail" placeholder="申请人邮箱">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="OccupyTimeStart">起始使用时间</label>
+                <input type="text" class="form-control" id="OccupyTimeStart" name="OccupyTimeStart" placeholder="起始使用时间">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="OccupyTimeEnd">结束使用时间</label>
+                <input type="text" class="form-control" id="OccupyTimeEnd" name="OccupyTimeEnd" placeholder="结束使用时间">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="CompTitle">活动标题</label>
+                <input type="text" class="form-control" id="CompTitle" name="CompTitle" placeholder="活动标题">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="CompContent">活动内容</label>
+                <input type="text" class="form-control" id="CompContent" name="CompContent" placeholder="活动内容">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="RequireEquipment">要求设备</label>
+                <input type="text" class="form-control" id="RequireEquipment" name="RequireEquipment" placeholder="要求设备">
+            </div>
+            <button type="submit" class="btn btn-default" id="btnSubmit">Submit</button>
+        </form>
+
+</div>
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="static/js/forms.js"></script>
+</body>
+</html>
